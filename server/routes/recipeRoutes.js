@@ -7,4 +7,7 @@ const recipeController = require('../controllers/recipeController');
  */
 router.get('/', recipeController.homepage);
 
+// Route for the dummy recipe page
+router.get('/recipe', recipeController.recipePage);
+
 module.exports = router;
